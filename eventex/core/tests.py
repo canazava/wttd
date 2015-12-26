@@ -16,3 +16,6 @@ class HomeTest(TestCase):
         :return: index.html
         """
         self.assertTemplateUsed(self.response, 'index.html')
+
+    def test_subscrition_link(self):
+        self.assertContains(self.response, 'href="/inscricao/"')
