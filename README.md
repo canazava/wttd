@@ -2,6 +2,8 @@
 
 Sistema de eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/canazava/wttd.svg?branch=github)](https://travis-ci.org/canazava/wttd)
+
 ## Como Desenvolver?
 
 1. Clone o repositório.
