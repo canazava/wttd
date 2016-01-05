@@ -46,7 +46,7 @@ INSTALLED_APPS = (
     'test_without_migrations',
     #My Apps
     'eventex.core',
-    'eventex.subscriptions',
+    'eventex.subscriptions.apps.SubscriptionsConfig',
 
 )
 
