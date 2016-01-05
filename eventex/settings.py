@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     #Third-Party Apps
     'django_extensions',
+    'test_without_migrations',
     #My Apps
     'eventex.core',
     'eventex.subscriptions',
