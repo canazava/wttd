@@ -45,7 +45,7 @@ def new(request):
 
 def detail(request):
     from django.http import HttpResponse
-    return HttpResponse
+    return HttpResponse()
 
 def _send_email(subject, from_, to, template_name, context):
     body = render_to_string(template_name,context)
