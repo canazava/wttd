@@ -25,3 +25,10 @@ class SubscriptionModelTest(TestCase):
 
     def test_str(self):
         self.assertEqual('Bruno Canazava', str(self.obj))
+
+
+    def test_paid_default_to_False(self):
+        """
+        :return: By default paid must be false
+        """
+        self.assertEqual(False, self.obj.paid)
